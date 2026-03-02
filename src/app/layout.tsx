@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   verification: {
-    google: 'your-google-verification-code', // ⚠️ Thêm sau khi có từ Google Search Console
+    google: 'googleb99931c09f71d8a8',
   },
   icons: {
     icon: [
