@@ -4,13 +4,13 @@ export default function StructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://taxichauduc.com', // ⚠️ THAY ĐỔI DOMAIN
+    '@id': 'https://chauduc-taxi.vercel.app', // ⚠️ THAY ĐỔI DOMAIN
     name: 'Taxi Châu Đức giá rẻ',
     description: 'Dịch vụ taxi giá rẻ, uy tín tại Châu Đức và các khu vực lân cận tại Bà Rịa - Vũng Tàu',
-    url: 'https://taxichauduc.com', // ⚠️ THAY ĐỔI DOMAIN
+    url: 'https://chauduc-taxi.vercel.app', // ⚠️ THAY ĐỔI DOMAIN
     telephone: '+84357572796',
     priceRange: '$$',
-    image: 'https://taxichauduc.com/og-image.jpg', // ⚠️ THAY ĐỔI DOMAIN
+    image: 'https://chauduc-taxi.vercel.app/og-image.jpg', // ⚠️ THAY ĐỔI DOMAIN
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Châu Đức',

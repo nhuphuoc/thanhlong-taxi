@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'vi_VN',
-    url: 'https://taxichauduc.com', // ⚠️ THAY ĐỔI DOMAIN THẬT
+    url: 'https://chauduc-taxi.vercel.app', // ⚠️ THAY ĐỔI DOMAIN THẬT
     siteName: 'Taxi Châu Đức giá rẻ',
     title: 'Taxi Châu Đức giá rẻ - Dịch Vụ Taxi Uy Tín 24/7',
     description: 'Taxi Châu Đức giá rẻ chuyên cung cấp dịch vụ taxi 4-7 chỗ tại Châu Đức, Kim Long, Ngãi Giao, Bà Rịa, Xuyên Mộc. Gọi ngay 0357572796.',
