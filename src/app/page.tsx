@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Phone, Clock, Shield, DollarSign, Car, MapPin, Plane, Building2, MessageCircle, Mail } from 'lucide-react';
 
 // ===== THAY ĐỔI THÔNG TIN TẠI ĐÂY =====
@@ -18,9 +19,18 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 bg-black/95 backdrop-blur-sm z-40 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl md:text-3xl font-black text-yellow-400">
-            {DATA.name}
-          </h1>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Taxi Châu Đức logo"
+              width={50}
+              height={50}
+              className="rounded-lg"
+            />
+            <h1 className="text-2xl md:text-3xl font-black text-yellow-400">
+              {DATA.name}
+            </h1>
+          </div>
           <a
             href={`tel:${DATA.phone}`}
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 flex items-center gap-2"

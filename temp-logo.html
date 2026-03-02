@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: white;
+    }
+    .logo-container {
+      text-align: center;
+      padding: 60px;
+    }
+    .logo {
+      background: linear-gradient(135deg, #facc15 0%, #eab308 100%);
+      color: black;
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      display: inline-block;
+    }
+    .logo h1 {
+      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+    .logo .subtitle {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+    .phone {
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #dc2626;
+    }
+
+    /* OG Image Style - 1200x630 */
+    .og-image {
+      width: 1200px;
+      height: 630px;
+      background: linear-gradient(135deg, #000 0%, #1f1f1f 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .og-image::before {
+      content: '🚕';
+      position: absolute;
+      font-size: 400px;
+      opacity: 0.1;
+      top: -50px;
+      right: -50px;
+    }
+    .og-image h1 {
+      color: #facc15;
+      font-size: 80px;
+      font-weight: 900;
+      margin: 0;
+      text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+    }
+    .og-image h2 {
+      color: white;
+      font-size: 40px;
+      margin: 20px 0;
+      font-weight: 600;
+    }
+    .og-image .phone-big {
+      background: #dc2626;
+      color: white;
+      padding: 20px 50px;
+      border-radius: 50px;
+      font-size: 50px;
+      font-weight: 900;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <!-- Simple Logo -->
+    <div class="logo" id="logo">
+      <h1>🚕 TAXI<br/>CHÂU ĐỨC</h1>
+      <div class="subtitle">GIÁ RẺ</div>
+      <div class="phone">📞 035.757.2796</div>
+    </div>
+
+    <div style="margin: 100px 0;"></div>
+
+    <!-- OG Image 1200x630 -->
+    <div class="og-image" id="og-image">
+      <h1>TAXI CHÂU ĐỨC</h1>
+      <h2>Giá Rẻ - Uy Tín - Chất Lượng</h2>
+      <div class="phone-big">📞 035.757.2796</div>
+      <div style="color: white; margin-top: 30px; font-size: 24px;">
+        Phục vụ 24/7 tại Bà Rịa - Vũng Tàu
+      </div>
+    </div>
+  </div>
+
+  <script>
+    console.log('Hướng dẫn chụp ảnh:');
+    console.log('1. Logo: Click chuột phải vào ô vàng → "Inspect" → Chụp screenshot element #logo');
+    console.log('2. OG Image: Chụp screenshot element #og-image (1200x630px)');
+    console.log('3. Favicon: Crop logo thành vuông 512x512, dùng https://realfavicongenerator.net');
+  </script>
+</body>
+</html>
