@@ -1,6 +1,6 @@
 # Landing Page - Taxi Châu Đức giá rẻ
 
-Landing page hiện đại cho dịch vụ Taxi Châu Đức giá rẻ, được xây dựng bằng Next.js 15, React 19, và Tailwind CSS.
+Landing page hiện đại cho dịch vụ Taxi Châu Đức giá rẻ, được xây dựng bằng Next.js 15, React 19, và Tailwind CSS. <3
 
 ## ✨ Tính năng
 
