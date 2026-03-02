@@ -1,0 +1,21 @@
+{
+  "name": "Taxi Châu Đức giá rẻ",
+  "short_name": "Taxi Châu Đức",
+  "description": "Dịch vụ taxi giá rẻ tại Châu Đức, Bà Rịa - Vũng Tàu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#facc15",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
