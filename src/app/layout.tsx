@@ -74,6 +74,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" suppressHydrationWarning>
+      <head>
+        <meta name="google-site-verification" content="7dFpMadrpTf07yT44UY_8P03cK9jYG2bKPXAnT6-heQ" />
+      </head>
       <body suppressHydrationWarning>
         <StructuredData />
         {children}
